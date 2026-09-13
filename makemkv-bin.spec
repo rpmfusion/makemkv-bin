@@ -34,14 +34,14 @@ makemkvcon and sdftool.
 Summary:        MakeMKV's BD-J emulation server (BLUES)
 Requires:       jre
 Requires:       makemkv >= %{version}-1
-ExclusiveArch:  %{java_arches} noarch
+ExclusiveArch:  aarch64 x86_64
 
 %description -n makemkv-blues
 MakeMKV's BD-J emulation server (BLUES).
 
 %package -n makemkv-blues-javadoc
 Summary:        JavaDoc documentation for MakeMKV's Java component (BLUES)
-ExclusiveArch:  %{java_arches} noarch
+ExclusiveArch:  aarch64 x86_64 noarch
 
 %description -n makemkv-blues-javadoc
 JavaDoc documentation for MakeMKV's Java component (BLUES).
