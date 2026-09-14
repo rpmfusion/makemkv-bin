@@ -41,7 +41,9 @@ MakeMKV's BD-J emulation server (BLUES).
 
 %package -n makemkv-blues-javadoc
 Summary:        JavaDoc documentation for MakeMKV's Java component (BLUES)
-ExclusiveArch:  aarch64 x86_64 noarch
+# RPM Fusion mash doesn't work well with noarch sub-packages... to be revisited.
+#BuildArch: noarch
+ExclusiveArch:  aarch64 x86_64
 
 %description -n makemkv-blues-javadoc
 JavaDoc documentation for MakeMKV's Java component (BLUES).
