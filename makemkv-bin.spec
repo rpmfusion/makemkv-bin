@@ -4,7 +4,7 @@
 %global __strip /bin/true
 
 Name:           makemkv-bin
-Version:        1.18.4
+Version:        2.0.0
 Release:        %autorelease
 Summary:        A decryption and transcoding tool for DVD and Blu-ray discs
 
